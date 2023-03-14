@@ -1,0 +1,344 @@
+/* NavBar and NavTab */
+/* .navbar {
+  height: 40px;
+} */
+
+.nav-link {
+  color: white;
+  font-size: small;
+  margin: -6px 16px 0px 16px;
+}
+
+.nav-link:visited {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #cacaca;
+}
+
+/* About Me Page */
+
+/* About Me Title */
+.about-me {
+  text-align: center;
+}
+
+.about-me span {
+  color: #eef0f2;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: -24px;
+  font-weight: light;
+}
+
+.about-me p {
+  font-size: small;
+  color: #616161;
+  padding-top: -24px;
+}
+
+/* About Me Content -> My Photo */
+.my-photo-box > img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* About Me Content -> My Bio */
+
+/* specifics */
+
+.specific-col {
+  margin-top: 8px;
+}
+
+.specific-field {
+  display: flex;
+  align-items: center;
+}
+
+.specific-field i {
+  margin-right: 5px;
+}
+
+.specific-field strong {
+  margin-right: 5px;
+  font-size: small;
+}
+
+.fa-chevron-right {
+  color: #e6b31e;
+  font-size: xx-small;
+}
+
+.specific-field span {
+  color: rgb(71, 69, 69);
+  font-size: 12px;
+}
+
+/* achievement-specific */
+
+.achievement-specific {
+  margin-top: 40px;
+}
+
+.achievement-field {
+  display: flex;
+  align-items: center;
+}
+
+.achievement-specific i {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.fa-face-smile {
+  color: #51e4bf;
+}
+
+.fa-diagram-project {
+  color: #f85d5d;
+}
+
+.fa-clock {
+  color: rgb(136, 192, 238);
+}
+
+.fa-trophy {
+  color: #e6b31e;
+}
+
+.achievement-specific span {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.achievement-specific p {
+  margin-left: 32px;
+  font-size: 12px;
+  color: #747070;
+}
+
+.achievement-specific p strong {
+  font-size: 12px;
+  color: #3d3d3d;
+}
+
+/* list-of-skills */
+
+.list-of-skills {
+  margin-top: 40px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill span {
+  display: block;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.progress-bar {
+  margin-top: 4px;
+  background-color: #d3d3d3;
+  height: 4px;
+  width: 100%;
+}
+
+.progress-bar1 {
+  background-color: #e6b31e;
+  height: 4px;
+  width: 90%;
+}
+
+.progress-bar2 {
+  background-color: #e6b31e;
+  height: 4px;
+  width: 80%;
+}
+
+.progress-bar3 {
+  background-color: #e6b31e;
+  height: 4px;
+  width: 75%;
+}
+
+/* My Services Page */
+
+/* My Services Title */
+.my-services {
+  text-align: center;
+}
+
+.my-services span {
+  color: #eef0f2;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: -24px;
+  font-weight: light;
+}
+
+.my-services p {
+  font-size: small;
+  color: #616161;
+  padding-top: -24px;
+}
+
+/* Cards */
+
+.my-services-cards {
+  margin-top: 16px;
+}
+
+.my-services-cards .card:hover {
+  border-color: #e6b31e;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.my-services-cards .card-body {
+  text-align: center;
+}
+
+.card-body .card-title {
+  font-size: 16px;
+}
+
+.card-body .card-text {
+  font-size: 10px;
+  font-weight: lighter;
+  color: #747070;
+}
+
+.card .fa-comments {
+  color: #e6b31e;
+  text-align: center;
+  font-size: 64px;
+  margin-top: 16px;
+}
+
+.card .fa-clipboard {
+  color: #e6b31e;
+  text-align: center;
+  font-size: 64px;
+  margin-top: 16px;
+}
+
+.card .fa-compass {
+  color: #e6b31e;
+  text-align: center;
+  font-size: 64px;
+  margin-top: 16px;
+}
+
+.card .fa-thumbs-up {
+  color: #e6b31e;
+  text-align: center;
+  font-size: 64px;
+  margin-top: 16px;
+}
+
+/* Carousel */
+
+.my-carousel {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.carousel-inner {
+  background-image: url(/images/carousel-photo2\ .jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.carousel-item img {
+  height: 450px;
+}
+
+.carousel-item p {
+  font-style: italic;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* Home Page */
+
+.home-content {
+  height: calc(100vh - 40px);
+}
+
+.home-content img {
+  height: 100%;
+  width: 100%;
+}
+
+.home-content-description {
+  position: absolute;
+  top: 50%;
+  left: calc((100% - 300px) / 2);
+  width: 300px;
+  text-align: center;
+}
+
+.home-content-description h1 {
+  font-family: "Satisfy", cursive;
+  color: #ffffff;
+}
+
+.home-content-description p {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+/* My Game Page */
+
+#gameContainer {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+}
+
+#game-title {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: #e6b31e;
+}
+
+#cellsContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 225px;
+  margin: auto;
+}
+
+.cell {
+  width: 75px;
+  height: 75px;
+  border: solid 2px;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#statusText {
+  margin-top: 24px;
+}
